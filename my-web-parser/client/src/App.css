@@ -1,38 +1,44 @@
+/* Основные стили для приложения */
 .App {
-  text-align: center;
+  text-align: center; /* Выравнивание текста по центру */
 }
 
+/* Стили для логотипа приложения */
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 40vmin; /* Высота логотипа равна 40% от меньшей стороны вьюпорта */
+  pointer-events: none; /* Отключение взаимодействия с логотипом (например, клики) */
 }
 
+/* Анимация логотипа, если пользователь не предпочитает уменьшенные движения */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear; /* Бесконечная анимация вращения логотипа */
   }
 }
 
+/* Стили для заголовка приложения */
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #282c34; /* Темно-синий фон */
+  min-height: 100vh; /* Минимальная высота заголовка равна высоте вьюпорта */
+  display: flex; /* Использование flexbox для выравнивания элементов */
+  flex-direction: column; /* Вертикальное направление flex-контейнера */
+  align-items: center; /* Центрирование элементов по горизонтали */
+  justify-content: center; /* Центрирование элементов по вертикали */
+  font-size: calc(10px + 2vmin); /* Размер шрифта с адаптацией к размеру вьюпорта */
+  color: white; /* Цвет текста - белый */
 }
 
+/* Стили для ссылок в приложении */
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Цвет ссылок - светло-голубой */
 }
 
+/* Определение анимации вращения логотипа */
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* Начальная позиция вращения */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Конечная позиция вращения (полный оборот) */
   }
 }
