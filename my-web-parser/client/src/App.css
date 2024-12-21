@@ -1,44 +1,38 @@
-/* Основные стили для приложения */
 .App {
-  text-align: center; /* Центрирование текста */
+  text-align: center;
 }
 
-/* Стили для логотипа */
 .App-logo {
-  height: 40vmin; /* Высота логотипа */
-  pointer-events: none; /* Отключение взаимодействия */
+  height: 40vmin;
+  pointer-events: none;
 }
 
-/* Анимация логотипа */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear; /* Бесконечная анимация вращения */
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
-/* Стили заголовка приложения */
 .App-header {
-  background-color: #282c34; /* Темный фон */
-  min-height: 100vh; /* Минимальная высота */
-  display: flex; /* Flexbox для выравнивания */
-  flex-direction: column; /* Вертикальное направление */
-  align-items: center; /* Центрирование по горизонтали */
-  justify-content: center; /* Центрирование по вертикали */
-  font-size: calc(10px + 2vmin); /* Адаптивный размер шрифта */
-  color: white; /* Цвет текста */
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-/* Стили для ссылок */
 .App-link {
-  color: #61dafb; /* Цвет ссылок */
+  color: #61dafb;
 }
 
-/* Определение анимации вращения логотипа */
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg); /* Начальная позиция */
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg); /* Конечная позиция */
+    transform: rotate(360deg);
   }
 }
